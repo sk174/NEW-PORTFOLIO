@@ -162,8 +162,8 @@ function Contact() {
           <div className="mt-7 flex flex-wrap justify-center gap-4 text-xs font-bold text-muted">
             <a className="hover:text-coral" href={`tel:${profile.phone.replace(/\s/g, '')}`}>{profile.phone}</a>
             <a className="hover:text-coral" href={`mailto:${profile.email}`}>{profile.email}</a>
-            <a className="hover:text-coral" href={profile.github}>GitHub</a>
-            <a className="hover:text-coral" href={profile.linkedin}>LinkedIn</a>
+            <a className="hover:text-coral" href={profile.github} target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a className="hover:text-coral" href={profile.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </div>
         </div>
       </div>

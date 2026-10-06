@@ -37,11 +37,21 @@ function Hero() {
           </div>
 
           <div className="mt-8 flex items-center justify-center gap-3 lg:justify-start">
-            <a className="text-xs font-bold text-muted transition hover:text-coral" href={profile.github}>
+            <a
+              className="text-xs font-bold text-muted transition hover:text-coral"
+              href={profile.github}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               GitHub
             </a>
             <span className="h-1 w-1 rounded-full bg-coral" />
-            <a className="text-xs font-bold text-muted transition hover:text-coral" href={profile.linkedin}>
+            <a
+              className="text-xs font-bold text-muted transition hover:text-coral"
+              href={profile.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               LinkedIn
             </a>
           </div>

@@ -26,8 +26,8 @@ function Footer() {
         </div>
 
         <div className="flex items-center gap-4">
-          <a href={profile.github} className="text-xs font-bold text-white/60 transition hover:text-coral">GitHub</a>
-          <a href={profile.linkedin} className="rounded-full bg-coral px-5 py-2 text-xs font-black text-white transition hover:bg-white hover:text-ink">LinkedIn</a>
+          <a href={profile.github} target="_blank" rel="noopener noreferrer" className="text-xs font-bold text-white/60 transition hover:text-coral">GitHub</a>
+          <a href={profile.linkedin} target="_blank" rel="noopener noreferrer" className="rounded-full bg-coral px-5 py-2 text-xs font-black text-white transition hover:bg-white hover:text-ink">LinkedIn</a>
         </div>
       </div>
       <p className="mt-8 text-center text-xs text-white/40">
