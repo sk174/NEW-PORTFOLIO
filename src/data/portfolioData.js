@@ -7,8 +7,8 @@ export const profile = {
   location: 'Pune, India',
   phone: '+91 8600021773',
   email: 'shubhamkokate174@gmail.com',
-  github: '#',
-  linkedin: '#',
+  github: 'https://github.com/sk174',
+  linkedin: 'https://www.linkedin.com/in/shubham-kokate174/',
 };
 
 export const stats = [
